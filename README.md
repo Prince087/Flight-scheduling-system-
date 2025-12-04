@@ -22,23 +22,32 @@ This is a console-based Flight Scheduling System implemented in C++ using Graph 
 
 ## 📂 Project Structure
 flight-scheduling-system/
-├── graph.h
-├── graph.cpp
-├── FlightScheduler.h
-├── FlightScheduler.cpp
-├── main.cpp
-└── README.md
+
+-graph.h
+
+-graph.cpp
+
+-FlightScheduler.h
+
+-FlightScheduler.cpp
+
+-main.cpp
+
+-README.md
 
 ---
 
 ▶️ How to Compile and Run
 
+
 ✅ Using g++
 
 g++ main.cpp graph.cpp FlightScheduler.cpp -o flight
+
 ./flight
 
 🧠 How It Works
+
 -Cities are stored as graph nodes
 
 -Routes are stored as weighted directed edges
@@ -51,6 +60,9 @@ g++ main.cpp graph.cpp FlightScheduler.cpp -o flight
 2. Display All Routes
 3. Query Shortest Path
 4. Exit
+   
 👨‍💻 Author
+
 Prince Kumar
+
 B.Tech Student | Data Structures & Algorithms
